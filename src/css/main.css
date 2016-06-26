@@ -1,18 +1,23 @@
 *{
     margin: 0px;
 }
-#main{
-    background-color:beige;
-    margin: 10px;
+
+body{
+     color: #494849;
+     background-color: darkgrey;
+     font-family:"Franklin Gothic Medium", fantasy;
+     line-height: 1.5;
+ }
+
+.box {
+    background-image: url("../img/Pattern3.jpg");
+    background-size: cover;
+    margin: 50px;
     border-radius: 5px;
     padding: 5px;
+    height: 90vh;
 }
-body{
-    color: #494849;
-    background-color: darkgrey;
-    font-family:"Franklin Gothic Medium", fantasy;
-    line-height: 1.5;
-}
+
 
 h2{
     color: #2c4f4d;
@@ -20,7 +25,33 @@ h2{
 h1{
     text-align: center;
 }
+label {
+    margin: 2px;
+    width: 150px;
+    display: inline-block;
+}
+
+input{
+    margin: 3px;
+    background-color:beige;
+}
+
 #header{
     color: beige;
     background-color:#494849;
+}
+#text-field{
+    width: 550px;
+    height:100px;
+}
+#Autor-field{
+    width: 150px;
+
+}
+#date-field{
+     width: 150px;
+
+ }
+hr{
+    margin:3px;
 }
