@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+}
+#main{
+    background-color:beige;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+body{
+    color: #494849;
+    background-color: darkgrey;
+    font-family:"Franklin Gothic Medium", fantasy;
+    line-height: 1.5;
+}
+
+h2{
+    color: #2c4f4d;
+}
+h1{
+    text-align: center;
+}
+#header{
+    color: beige;
+    background-color:#494849;
+}
