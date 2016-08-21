@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>rpg_log</title>
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -16,15 +17,21 @@
     </h2>
     Beispieltext
 
-    <form action="http://localhost:8080/rpglog/entry" method="post">
-      <label for="Autor-field">Autor</label>
-        <input id= "Autor-field" type="text" title="Autor"/><br/>
+    <form>
+        <label for="author-field">Autor</label>
+        <input id= "author-field" name= "author-field" type="text" title="Autor"/><br/>
         <label for="date-field">Datum</label>
-        <input id= "date-field" type="text" title="Datum"/><br/>
+        <input id= "date-field" name= "date-field" type="text" title="Datum"/><br/>
         <label for="text-field">Text</label>
-        <input id= "text-field" type="text" title="Text" cols= "40" rows="10" /><br/>
-        <input type="submit" value="Submit"/>
-    </form><hr/>
+        <input id= "text-field" name="text-field" type="text" title="Text" cols= "40" rows="10" /><br/>
+    </form>
+    <button type="button" onclick="sendData()">
+        Senden
+    </button>
+    <hr/>
+    <ul id = "result">
+
+    </ul>
 </div>
 
 </body>
